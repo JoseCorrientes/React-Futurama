@@ -1,0 +1,109 @@
+.container {
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: -360px;
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 45% 45% 45% 45%;
+    z-index: 20;
+    filter: drop-shadow(10px 25px 8px rgba(0,0,0,0.7));
+}
+.container::before{
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    content:'';
+    left: 0;
+    bottom: 87%;
+    z-index: 18;
+    transform: skew(60deg, 45deg);
+    border-radius: 20% 1% 0 120%;
+}
+.containerText{
+    position: relative;
+    top: 20px;
+    left: 100px ;
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 30;
+}
+.nameText {
+    flex: 2;
+    font-stretch: extra-condensed;
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.autorText{
+    flex: 1;
+    font-size: 18px;
+    font-stretch: extra-condensed;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linkText{
+    flex: 1;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gitText{
+    flex: 1;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    border: 2px solid gray;
+    /* border-radius: 16px; 
+    border-radius: 45%;
+    
+    position: absolute;
+    bottom: 100px;
+    left: -305px;
+    background-color: grey;
+    width: 600px;
+    height: 200px;
+    z-index: 20;
+    box-shadow: rgba(0, 0, 0, 0.7) 3px 30px;
+
+}
+.globo2{
+    border: 2px solid gray;
+    /* border-radius: 16px;     border-radius: 0 270px 40px 20%;
+    position: absolute;
+    bottom: 83px;
+    left: 120px ;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    z-index: 20;
+    box-shadow: rgba(0, 0, 0, 0.7) 3px 30px;
+    transform: rotate(22deg);
+    
+} */

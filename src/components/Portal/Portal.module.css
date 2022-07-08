@@ -1,0 +1,169 @@
+body{
+  overflow: hidden;
+}
+
+body>section {
+  position:absolute;
+  top:0;
+  display: inline-block;
+  left: 50%;
+  margin-left: -300px;
+  
+  
+}
+
+.portal {
+  background-color: whitesmoke;
+  border: 2px solid grey;
+  border-radius: 30px;
+  width: 600px;
+  height:  850px;
+  justify-items: center;
+  
+  position: absolute;
+  top: 20px;
+  /* left: 550px; */
+  margin-left: auto;
+  margin-right: auto;
+  
+  z-index: 1000;
+  
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  grid-template-rows: 15px auto 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 15px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 20px 7px;
+}
+
+/* .portal:hover{
+  transform: rotate(360deg);
+  transition: .5s;
+} */
+.characterImage {
+  border: 2px solid gray;
+  border-radius: 16px;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.name{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 6px;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.species{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.age{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.planet{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.profession{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.status{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.firstAppearance{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.relatives{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.voicedBy{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  grid-row-start: 11;
+  grid-row-end: 12;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.closeButton{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 16px;
+  width: 100px;
+  height: 80px;  
+  grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 20px 7px;
+}
+.closeButton:hover{
+  background-color: black;
+  transform: scale(.9);
+  transition: .1seg;
+  cursor: pointer;
+}
+  
+  

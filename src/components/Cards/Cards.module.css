@@ -1,0 +1,59 @@
+.container{
+    background-image: url('../../images/fondo.jpeg');
+    background-size: cover;
+    padding: 0;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: grid;
+    grid-template-rows: 20px 1fr 20px 1fr 20px;
+    grid-template-columns: 20px 1fr 1fr 1fr 1fr 20px;
+    box-sizing: border-box;
+    justify-items: center;
+    /* overflow: hidden; */
+    z-index: 3;
+    }
+.buttonContainerIzquierda {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: none; 
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.buttonContainerIzquierda:hover{
+    /* background-color: black; */
+    background-color: black;
+    transform: rotate(-360deg);
+    transition: .3s;
+}
+.buttonContainerDerecha {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end:7 ;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+    margin-right: 40px ;
+    overflow: hidden;
+}
+.buttonContainerDerecha:hover{
+   background-color: black; 
+   transform:scale(1.2);
+   transition: .3s;
+   overflow: hidden;
+}
